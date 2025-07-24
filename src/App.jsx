@@ -69,8 +69,10 @@ function App() {
               <span key={skill} className="skill">
                 {skill}
               </span>
+              
 
             ))}
+             <button onClick={prevPage}>PREVIOUS</button>
           </div>
 
         </div>
